@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  width: inherit;
+  color: rgb(56, 149, 56);
+  border: 1px solid red;
+  background-color: purple;
+}
+
+main {
+  width: 100%;
+  height: auto;
+  border: 1px double black;
+  background-color: blue;
+}
+
+body {
+  background: url("https://img3.akspic.ru/previews/5/5/4/1/7/171455/171455-zhivopis-illustracia-art-voda-oblako-500x.jpg") no-repeat;
+  background-size: cover;
+}
+
+.title-text {
+  color: red !important; /*Нельзя*/
+  margin-top: 30px;
+}
+
+.title-text {
+  color: green;
+}
+
+#sub-title {
+  color: rgb(168, 168, 0);
+  font-size: 22px;
+  margin-top: 30px;
+}
+
+.title-text:hover{
+  font-size: 50px;
+}
